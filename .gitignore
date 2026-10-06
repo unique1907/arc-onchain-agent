@@ -1,0 +1,36 @@
+# Environment files and secrets
+.env
+.env.*
+*.pem
+*.key
+
+# Dependencies
+node_modules/
+
+# Build output and caches
+dist/
+build/
+.cache/
+.parcel-cache/
+.vite/
+.netlify/
+.turbo/
+coverage/
+*.tsbuildinfo
+
+# Logs and exported bundles
+*.log
+*.jsonl
+*.tar.gz
+*.zip
+
+# Generated Foundry output
+out/
+cache/
+broadcast/
+
+# Local editor and OS files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
