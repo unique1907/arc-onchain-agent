@@ -1,0 +1,16 @@
+{
+  "type": "https://eips.ethereum.org/EIPS/eip-8004#registration-v1",
+  "name": "Unique Onchain Agent",
+  "description": "Autonomous onchain agent with ERC-8004 identity and x402 USDC payments on Arc",
+  "services": [
+    {
+      "name": "A2A",
+      "endpoint": "https://unique1907-agent.netlify.app",
+      "version": "1.0.0"
+    }
+  ],
+  "x402Support": true,
+  "active": true,
+  "registrations": [],
+  "supportedTrust": ["reputation"]
+}
